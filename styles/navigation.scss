@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+}
+.navigation__title {
+  flex-grow: 1;
+}
+.search {
+  display: flex;
+}
+.search__sort,
+.search__filter {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.search__filter {
+  padding-right: 20px;
+}
+select {
+  width: 100px;
+  border: none;
+  background-color: #f6f6f6;
+  font-weight: 600;
+}
+label {
+  font-size: 12px;
+  line-height: 2em;
+  text-transform: uppercase;
+}
